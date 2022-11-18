@@ -1,0 +1,44 @@
+.title {
+    font-size: 35px;
+    text-align: center;
+}
+
+.categories {
+    display: flex;
+    margin-top: 30px;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.categories div {
+    display: flex;
+    border: 1px solid rgb(190, 190, 190);
+    border-radius: 3px;
+    width: 180px;
+    height: 35px;
+    justify-content: center;
+    align-items: center;
+}
+
+.line {
+    margin: auto;
+    margin-top: 30px;
+    width: 4%;
+    border: 2px solid #ff4827
+}
+
+.btnColor {
+    background-color: #ff4827;
+    color: white;
+}
+
+.productArray {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(222px, 1fr));
+    margin-top: 70px;
+}
+
+.product {
+    border: 2px solid black;
+    height: 380px;
+}

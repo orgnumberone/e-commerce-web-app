@@ -1,0 +1,27 @@
+.blogsContainer {
+    font-size: 35px;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 40px;
+}
+
+.container div {
+    display: flex;
+    height: 285px;
+    width: 350px;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid black;
+}
+
+.line {
+    margin: auto;
+    margin-top: 30px;
+    width: 4%;
+    border: 2px solid #ff4827
+}
