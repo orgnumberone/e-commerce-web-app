@@ -4,7 +4,6 @@ import logo from "../../../assets/images/logo.png";
 import { FaShoppingCart } from "react-icons/fa";
 import { FaSearch } from "react-icons/fa";
 import { BsFillPersonFill } from "react-icons/bs";
-import { GiHamburgerMenu } from "react-icons/gi";
 
 export const Navbar = () => {
     return (
