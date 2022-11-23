@@ -39,6 +39,49 @@
 }
 
 .product {
-    border: 2px solid black;
     height: 380px;
+    cursor: pointer;
+    border: 2px solid transparent;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    -ms-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+
+.product:hover {
+    border: 2px solid rgb(247, 247, 247);
+    box-shadow: 0px 5px 12px rgba(0, 0, 0, .1);
+    display: block;
+}
+
+.button {
+    width: 100%;
+    border: none;
+    font-size: 15px;
+    font-weight: 750;
+    color: white;
+    height: 40px;
+    background-color: #ff4827;
+    display: none;
+}
+
+.product:hover:after,
+.product:hover:before {
+    -webkit-animation-duration: 900ms;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-timing-function: ease-in-out;
+    -webkit-animation-fill-mode: forwards
+}
+
+.product:hover .button {
+    display: block;
+}
+
+.product:hover .button:after,
+.product:hover .button:before {
+    -webkit-animation-duration: 900ms;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-timing-function: ease-in-out;
+    -webkit-animation-fill-mode: forwards
 }

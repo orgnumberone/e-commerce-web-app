@@ -15,7 +15,7 @@ export const Latest = () => {
     return (
         <>
             <div className={styles.title} style={{marginTop: "70px"}}>
-                <div>Latest</div>
+                <div style={{fontWeight: "500"}}>Latest</div>
             </div>
             <div className={styles.line}></div>
             <div className={styles.categories}>
@@ -26,8 +26,10 @@ export const Latest = () => {
             </div>
             <div className={styles.productArray}>
                 {array.map((el, i) => {
-                    return <div key={i}>
-                        <div className={styles.product}>{el}</div>
+                    return <div key={i}  data-testid="latest">
+                        <div className={styles.product}>
+                            <button className={styles.button}>ADD TO CART</button>
+                        </div>
                     </div>
                 })}
             </div>

@@ -10,7 +10,7 @@
     width: 350px;
     align-items: center;
     justify-content: center;
-    background-image: url("../../../assets/images/kitten.png");
+    background-color: rgb(247, 247, 247);
     background-size: 100% 100%;
 }
 

@@ -14,7 +14,9 @@ export const BestSellers = () => {
             <div className={styles.productArray}>
                 {array.map((el, i) => {
                     return <div key={i}>
-                        <div className={styles.product}>{el}</div>
+                        <div className={styles.product}>
+                            <button className={styles.button}>ADD TO CART</button>
+                        </div>
                     </div>
                 })}
             </div>

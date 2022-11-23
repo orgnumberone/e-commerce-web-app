@@ -15,6 +15,6 @@ describe("Test main image component", () => {
 
     test("Should render Homepage image", () => {
         const image = document.querySelector("img");
-        expect(image.src).toContain("background.png");
+        expect(image.src).toContain("puppy.png");
     });
 });

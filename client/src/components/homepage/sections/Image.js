@@ -1,10 +1,10 @@
 import React from 'react';
-import pet from "../../../assets/images/background.png";
+import puppy from "../../../assets/images/puppy.png";
 
 export const Image = () => {
     return (
         <>  
-          <img src={pet} style={{width:"100%"}} alt="main-pic"/>
+          <img src={puppy} style={{width:"100%"}} alt="main-"/>
         </>
     )
 }
