@@ -1,6 +1,5 @@
 import { Categories } from "../../components/homepage/sections/Categories";
-import { render, cleanup, screen, fireEvent, waitFor } from "@testing-library/react";
-import { useEffect } from "react";
+import { render, cleanup, screen } from "@testing-library/react";
 
 describe("Test Categories component", () => {
 

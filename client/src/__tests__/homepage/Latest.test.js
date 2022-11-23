@@ -17,8 +17,4 @@ describe("Test Latest Component", () => {
         console.log(getAllByTestId("latest").length)
         expect(getAllByTestId("latest").length).toEqual(10);
     });
-
-    test("Button color changes when button is clicked", () => {
-
-    });
 })
