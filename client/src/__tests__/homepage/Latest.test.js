@@ -5,7 +5,7 @@ describe("Test Latest Component", () => {
     let latestComponent;
 
     beforeEach(() => {
-        latestComponent = render(<Latest />)
+        latestComponent = render(<Latest />);
     });
 
     afterEach(() => {
@@ -14,7 +14,7 @@ describe("Test Latest Component", () => {
 
     test("Expect 10 products to be displayed", async () => {
         const { getAllByTestId } = render(<Latest />);
-        console.log(getAllByTestId("latest").length)
+        console.log(getAllByTestId("latest").length);
         // expect(getAllByTestId("latest").length).toEqual(10);
     });
 })
